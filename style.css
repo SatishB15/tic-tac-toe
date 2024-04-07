@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FF4C29;
+    display: flex;
+    color: #FF4C29;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(43.5deg, #ff0 3%, orange 12%, #f14444 23%, #d53567 27%, #d430d4 47%, #d430d4 53%, #d53567 72%, #f14444 77%, orange 88%, #ff0 97%)
+}
+
+p{
+    color:#FF0000;
+}
